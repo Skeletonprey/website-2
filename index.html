@@ -56,7 +56,13 @@
   </h2>
  <body>
     <p style="color:red;"> The testing phase </p>
-    <img id="image" src="https://i.ibb.co/rb0qFL1/IMG-0848.png" alt="the cat" style="display:none;"/>
+  function showPicture() {
+  var sourceOfPicture = "https://i.ibb.co/rb0qFL1/IMG-0848.png";
+  var img = document.getElementById('bigpic')
+  img.src = sourceOfPicture.replace('90x90', '255x255')
+  img.style.display = "block";
+   }
+    <img src="bigpic" id="bigpic" alt="the cat"/>
   <button class="button button1" onclick="alert('test worked')">The test button</button>
 <button class="button button2" oneclick="showPicture()">The test button 2</button>
   </body>
