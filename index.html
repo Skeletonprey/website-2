@@ -55,17 +55,17 @@
     Yes it looks weird
   </h2>
  <body>
- <script type="text/javascript">
-function showPicture() {
-  var sourceOfPicture = "http://img.tesco.com/Groceries/pi/118/5000175411118/IDShot_90x90.jpg";
-  var img = document.getElementById('bigpic')
-  img.src = sourceOfPicture.replace('90x90', '225x225');
-} 
- </script>
+  <button id="myButton" class="float-left submit-button" >Home</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.youtube.com";
+    };
+</script>
+
   
     <p style="color:red;"> The testing phase </p>
     <img src="bigpic" id="bigpic"/>
   <button class="button button1" onclick="alert('test worked')">The test button</button>
-<button oneclick="showPicture()">The test button 2</button>
   </body>
 </html>
