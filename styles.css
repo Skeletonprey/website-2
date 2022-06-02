@@ -8,3 +8,14 @@
  height: 100%;
  background: #454A58;
 }
+.menu ul{
+ display: inline-flex;
+ margin: 50px;
+}
+
+.menu ul li{
+ list-style: none;
+ margin: 0px 20p;
+ color: #6C91C2;
+ cursor: pointer;
+}
