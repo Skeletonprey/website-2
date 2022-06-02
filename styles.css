@@ -6,3 +6,19 @@ font-family:'Trebuchet MS', sans-serif;
 h1 {
   color: #aaabbc;
 }
+.topnav {
+  background-color: #6C91C2;
+  overflow: hidden;
+}
+.topnav a {
+ float: left;
+  color: #AAABBC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+ background-color: #0e7c7b;
+  color: white;
+}
