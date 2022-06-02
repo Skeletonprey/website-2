@@ -3,9 +3,6 @@ background-color: #282f44;
 padding: 50px;
 font-family:'Trebuchet MS', sans-serif;
 }
-h1 {
-  color: #aaabbc;
-}
 .topnav {
   background-color: #6C91C2;
   overflow: hidden;
@@ -21,4 +18,9 @@ h1 {
 .topnav a:hover {
  background-color: #0e7c7b;
   color: white;
+}
+
+h1 {
+  color: #aaabbc;
+  font-weight: bold;
 }
