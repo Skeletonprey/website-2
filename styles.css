@@ -1,26 +1,10 @@
-body {
-background-color: #454A58;
-padding: 50px;
-font-family:'Trebuchet MS', sans-serif;
+*{
+ margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-.topnav {
-  background-color: #6C91C2;
-  overflow: hidden;
-}
-.topnav a {
- float: left;
-  color: #AAABBC;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a:hover {
- background-color: #0e7c7b;
-  color: white;
-}
-
-h1 {
-  color: #aaabbc;
-  font-weight: bold;
+.container{
+ width: 100%;
+ height: 100%;
+ background: #454A58;
 }
