@@ -35,7 +35,7 @@
  color: #fff;
  border: 2px solid transparent;
  border-radius: 20px;
- background-image: linear-gradient (#6C91C2,#6C91C2),radial-gradient (circle top left,#0E7C7B, #6C91C2);
+ background-image: linear-gradient (#6C91C2,#6C91C2),radial-gradient (circle at top left,#0E7C7B,#6C91C2);
  background-orgin: border-box;
- background-clip: content-box, border-box;
+ background-clip: content-box,border-box;
 }
