@@ -6,14 +6,14 @@
 .container{
  width: 100%;
  height: 100%;
- background: #454A58;
+ background: #515861;
 }
 .menu ul{
  display: inline-flex;
  margin: 50px;
 }
 body {
- background: #17212e;
+ background: #2f3338;
 }
 
 .menu ul li{
