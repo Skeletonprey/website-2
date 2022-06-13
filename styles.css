@@ -61,4 +61,6 @@ body {
 .app-text h1 {
 font-size: 43px;
 width: 640px;
+position: relative;
+margin-left: 40px;
 }
